@@ -1,6 +1,6 @@
 # SQL_120-years-of-Olympics-History
 ## Olympic Games Data Analysis
-![Olympic Games](images/olympic-games-banner.jpg)
+![Olympic Games](download.jpeg)
 
 This README provides an overview of SQL queries used for analyzing a comprehensive dataset of Olympic Games spanning 120 years. The queries are written using SQL Server Management Studio (SSMS) and are designed to extract meaningful insights regarding participation, medal counts, and athlete information.
 
