@@ -135,10 +135,8 @@ ORDER BY Num DESC;
 
 -- Fetch the top 5 athletes who have won the most medals (gold/silver/bronze).
 
-
-Fetch the top 5 most successful countries in olympics. Success is defined by no of medals won.
 --List down total gold, silver and broze medals won by each country.
-SELECT NOC,
+SELECT  top 5 NOC,
        SUM(CASE WHEN Medal = 'Gold' THEN 1 ELSE 0 END) AS gold_number,
        SUM(CASE WHEN Medal = 'Silver' THEN 1 ELSE 0 END) AS silver_number,
        SUM(CASE WHEN Medal = 'Bronze' THEN 1 ELSE 0 END) AS bronze_number,
